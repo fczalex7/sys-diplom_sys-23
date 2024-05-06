@@ -160,6 +160,19 @@ ansible all -m ping
 
 
 
+### Соединение с Elasticsearch
+
+![elk](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/62263215-ed6a-4eda-88e1-0c5af6852ae7)
+
+![elk1](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/bcba93de-4920-4b18-9e3f-1ee881e14dea)
+
+### Zabbix 
+http://158.160.33.250/zabbix/
+Admin
+zabbix
+
+
+
 
 
 

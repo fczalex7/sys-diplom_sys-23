@@ -133,6 +133,32 @@ ansible all -m ping
 
 ![play1](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/df524ec1-4ca5-44fe-98dc-bb3a9e83cb1a)
 
+Установка через ansible 
+### Kibana
+
+![kibana](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/878b79c1-a813-4a30-a9b6-18c539ddcf80)
+
+### Elasticsearch
+
+![elastic](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/e36fafed-61f9-45f4-aa23-855c9490a974)
+
+### Zabbix 
+
+![яфииш](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/29746158-1161-4b5a-a722-2c83f04b26c3)
+### 2 webserver
+
+![Установка 2 веб сервера](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/5cd1f9cc-2b5d-4bad-bf92-3beeda729453)
+
+### filebeat 
+![filebeat](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/bb6f510d-2c79-4f18-a2df-b1aef57c6628)
+
+
+### Zabbix-agent
+
+
+
+
+
 
 
 

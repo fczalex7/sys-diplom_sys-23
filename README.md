@@ -69,6 +69,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 
 # Дипломная работа
+### Terraform
 Установил Terraform на свою виртуальную машину
 
 Создал файл конфигурации с правами.
@@ -90,12 +91,48 @@ ssh-keygen -t ed25519 и добавил его в meta.yaml
 
 ![terra2](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/fe864162-686b-4573-9242-d52ddf44d9b5)
 
-Видем что завершилось успешно и в иртуальные машины и вся инфраструктура созданы.
+Видем что завершилось успешно и виртуальные машины и вся инфраструктура созданы.
+#### Облако
 
 ![облако](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/314e07a8-e4fe-411f-8ac3-8e3f2e3f300b)
 
+#### Виртуальные машины
 
 ![vm1](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/3fabaab4-5cbb-4a72-aea9-0ee0c02a2fbc)
+
+#### Группа безопасноти 
+
+![90](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/8b88a1c8-de60-47a1-9df1-843c0c311644)
+
+#### Балансировщик
+
+![баланс](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/6238a320-ed45-4122-963f-6dbc86f76cdb)
+
+#### Snapshot дисков
+
+![snap](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/0534d35f-1cf2-4036-9877-46fa612049a6)
+
+
+#### Тестирование сайта curl -v 158.160.155.15:80
+
+![curl](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/93aaa610-142e-41cb-a769-01d3626d0341)
+
+### Ansible 
+
+Скачиваем установочные пакеты elasticsearch, filebeat, kibana из ресурса Yandex зеркало/
+
+Конфигурируем файл /ansible.cfg  в дериктории /etc/ansible
+
+Пингуем машины из списка hosts
+
+ansible all -m ping
+
+![ping vm](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/a47ed37f-f426-4a44-8093-214d9ee5850c)
+
+Установка roles and collection на хост 
+
+![play1](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/df524ec1-4ca5-44fe-98dc-bb3a9e83cb1a)
+
 
 
 

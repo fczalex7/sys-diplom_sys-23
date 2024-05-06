@@ -90,9 +90,13 @@ ssh-keygen -t ed25519 и добавил его в meta.yaml
 
 ![terra2](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/fe864162-686b-4573-9242-d52ddf44d9b5)
 
-Видем что завершилось успешно и виртуальные машины создали
+Видем что завершилось успешно и в иртуальные машины и вся инфраструктура созданы.
+
+![облако](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/314e07a8-e4fe-411f-8ac3-8e3f2e3f300b)
+
 
 ![vm1](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/3fabaab4-5cbb-4a72-aea9-0ee0c02a2fbc)
+
 
 
 

@@ -74,9 +74,11 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 Создал файл конфигурации с правами.
 
 nano ~/.terraformrc
+
 chmod 644 .terraformrc
 
 Создал файл в директории terraform /main.tf и внес внего свои данные от Yandex Cloud.
+
 Запускаем команду terraform init
 
 ![terra](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/7a7fb4e8-d513-4c46-af2a-f21e6d90b395)
@@ -84,8 +86,13 @@ chmod 644 .terraformrc
 Создал публичный ключ с помощью команды:
 ssh-keygen -t ed25519 и добавил его в meta.yaml
 
+Запускаем команду terraform plan увидев что ошибок нет , запускаем  terraform apply.
 
+![terra2](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/fe864162-686b-4573-9242-d52ddf44d9b5)
 
+Видем что завершилось успешно и виртуальные машины создали
+
+![vm1](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/3fabaab4-5cbb-4a72-aea9-0ee0c02a2fbc)
 
 
 

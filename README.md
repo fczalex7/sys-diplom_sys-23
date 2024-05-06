@@ -69,15 +69,21 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 
 # Дипломная работа
-Установив Terraform на свою виртуальную машину
+Установил Terraform на свою виртуальную машину
+
 Создал файл конфигурации с правами.
+
 nano ~/.terraformrc
 chmod 644 .terraformrc
-Создал файл в директории terraform main.tf и внес свои данные от Yandex Cloud в файлы.
+
+Создал файл в директории terraform /main.tf и внес внего свои данные от Yandex Cloud.
 Запускаем команду terraform init
+
 ![terra](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/7a7fb4e8-d513-4c46-af2a-f21e6d90b395)
+
 Создал публичный ключ с помощью команды:
 ssh-keygen -t ed25519 и добавил его в meta.yaml
+
 
 
 

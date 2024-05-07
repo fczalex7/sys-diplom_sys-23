@@ -155,14 +155,11 @@ ansible all -m ping
 
 ### Zabbix-agent
 
-
-
-
+![zabbixagent](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/09594319-d561-4cea-9155-6acf8ffa6448)
 
 
 ### Соединение с Elasticsearch
-
-![elk](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/62263215-ed6a-4eda-88e1-0c5af6852ae7)
+![elk](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/7b0e11cf-77aa-4ca3-9303-cf97a638b0df)
 
 ![elk1](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/bcba93de-4920-4b18-9e3f-1ee881e14dea)
 
@@ -170,6 +167,11 @@ ansible all -m ping
 http://158.160.33.250/zabbix/
 Admin
 zabbix
+
+![zabbix1](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/b4b030e8-b5c2-45c8-bbe6-ea78b9f2bf4c)
+
+![zabbix3](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/954bc5a0-2859-4946-9f10-b2c8b4a99182)
+
 
 
 

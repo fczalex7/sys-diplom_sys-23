@@ -164,7 +164,7 @@ ansible all -m ping
 ![elk1](https://github.com/fczalex7/sys-diplom_sys-23/assets/141554023/bcba93de-4920-4b18-9e3f-1ee881e14dea)
 
 ### Zabbix 
-http://158.160.33.250/zabbix/
+http://158.160.109.24/zabbix/
 Admin
 zabbix
 

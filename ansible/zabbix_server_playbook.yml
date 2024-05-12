@@ -1,13 +1,13 @@
 ---
 - name: install postgresql
-  hosts: 178.154.200.249
+  hosts: 158.160.109.24
   become: yes
   
   roles: 
     - role: psql
 
 - name: install zabbix-server
-  hosts: 178.154.200.249
+  hosts: 158.160.109.24
   become: yes
   vars_files:
     - "./zabbix/zabbix_dbpasswd.yml"
